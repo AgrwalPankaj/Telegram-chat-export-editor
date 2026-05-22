@@ -1,0 +1,40 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2aShT3wFoed5gz2.root:0Sj7IaKp2Q6wI8alr2gj@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/ZodUjRVRP9NZ7EMeCfAAwS?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663679144898/ZodUjRVRP9NZ7EMeCfAAwS",
+    "expiration": "2026-05-21T00:39:15.000Z"
+  },
+  "name": "telegram-chat-simulator",
+  "path": "/home/ubuntu/telegram-chat-simulator",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "6APg9Fv2sxpxRd5WGDom3e",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "mUAkwax2THCtq8ibon5Cma",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Pankaj Agarwal",
+    "OWNER_OPEN_ID": "6GeCF5LsViVgTFQbSQc37E",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "25d655be-72f8-4bff-972e-1e82892d453b",
+    "VITE_APP_ID": "ZodUjRVRP9NZ7EMeCfAAwS",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Telegram Chat Simulator",
+    "VITE_FRONTEND_FORGE_API_KEY": "m3xSNcnkgr25WoWeT2ASqi",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}

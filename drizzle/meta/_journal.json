@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1779280775707,
+      "tag": "0000_flat_vindicator",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1779281029961,
+      "tag": "0001_easy_sersi",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1779396184921,
+      "tag": "0002_motionless_captain_america",
+      "breakpoints": true
+    }
+  ]
+}
